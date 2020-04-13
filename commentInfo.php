@@ -34,7 +34,7 @@
                 <h2 class="pb-3">created by <?php echo htmlspecialchars($comment['username']); ?></h2>
                 <h2 class="pb-3">created at <?php echo htmlspecialchars($comment['date_time']); ?></h2>
                 <div class="pb-3">
-                    <a href="editComment.php?id=<?php echo $comment['id'] ?>">edit comment</a>
+                    <a class="btn btn-info" href="editComment.php?id=<?php echo $comment['id'] ?>">edit comment</a>
                 </div>
                 <form action="commentInfo.php" method="POST">
                 <?php   
